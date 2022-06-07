@@ -1,11 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <!-- ======= Footer ======= -->
 <footer id="footer">
 	<div class="footer-top">
 		<div class="container">
 			<div class="row  justify-content-center">
 				<div class="col-lg-6">
-					<img src="/img/h1_logo_mo.png" class="foot_logo">
+					<img src="/img/h1_logo_pc_w.png" class="foot_logo">
 					<p>(주) 여기어때컴퍼니</p>
 					<p>주소 : 서울특별시 강남구 봉은사로 479, 479타워 11층</p>
 					<p>대표이사 : 정명훈 | 사업자등록번호: 742-86-00224></p>

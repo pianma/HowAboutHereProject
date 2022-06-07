@@ -25,16 +25,16 @@
 			<div class="row justify-content-center" class=>
 				<div class="col-md-6 col-lg-4">
 					<div class="login-wrap p-0">
-					<a href="index">
+					<a href="home">
 						<img  src="/img/h1_logo_mo.png" class="login_logo">
 					</a>
 		      	
-		      	<form action="#" class="signin-form">
+		      	<form action="login/login" method="post" class="signin-form">
 		      		<div class="form-group">
-		      			<input type="text" class="form-control" placeholder="Username" required>
+		      			<input type="text" class="form-control" placeholder="Username" name="username" required>
 		      		</div>
 	            <div class="form-group">
-	              <input id="password-field" type="password" class="form-control" placeholder="Password" required>
+	              <input id="password-field" type="password" class="form-control" placeholder="Password" name="password" required>
 	              <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
 	            </div>
 	            <div class="form-group">
@@ -48,8 +48,7 @@
 	          </form>
 	          
 	          <div class="social d-flex text-center">
-	          	<a href="#" class="px-2 py-2 mr-md-1 rounded"><span class="ion-logo-facebook mr-2"></span> 비밀번호재설정</a>
-	          	<a href="join" class="px-2 py-2 ml-md-1 rounded"><span class="ion-logo-twitter mr-2"></span> 회원가입</a>
+	          	<a href="/joinForm" class="px-2 py-2 ml-md-1 rounded"><span class="ion-logo-twitter mr-2"></span> 회원가입</a>
 	          </div>
 		      </div>
 				</div>
